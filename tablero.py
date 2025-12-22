@@ -588,7 +588,7 @@ with tab4:
     # Exportación completa
     st.subheader("📦 Exportación completa de Auditoría")
     output = BytesIO()
-    with pd.ExcelWriter(output, engine="xlsxwriter") as writer:
+    with pd.ExcelWriter(output, engine="openpyxl") as writer:
         df_a.to_excel(writer, sheet_name="A_Sin_remito", index=False)
         df_b.to_excel(writer, sheet_name="B_No_rendidos", index=False)
         df_c.to_excel(writer, sheet_name="C_No_cumplidos", index=False)
@@ -601,3 +601,4 @@ with tab4:
     st.download_button("📥 Exportar Auditoría completa (Excel)", output, "auditoria_completa.xlsx")
 
 st.caption("Tablero Logístico BCA – Base única (liq_comb.xlsx)")
+
