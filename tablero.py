@@ -521,8 +521,8 @@ with tab4:
     # C) No cumplidos
     df_c = df_no_quebracho[df_no_quebracho["Cumplido_norm"].isin(["", "NO", "0", "FALSE", "N"])].copy()
 
-    # D) Toneladas inválidas (0, 33, 33.33)
-    df_d = df_no_quebracho[df_no_quebracho["TnFactu"].isin([0, 33, 33.33])].copy()
+    # D) Toneladas inválidas (0, 33, 33.333)
+    df_d = df_no_quebracho[df_no_quebracho["TnFactu"].isin([0, 33, 33.333])].copy()
 
     # E) Sin líquido producto (Comp.Compra vacío)
     df_liq_1 = df_no_quebracho[
