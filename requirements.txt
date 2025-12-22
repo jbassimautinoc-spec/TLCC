@@ -1,5 +1,13 @@
+<<<<<<< HEAD
 streamlit
 pandas
 plotly
 openpyxl
 pyarrow
+=======
+streamlit
+pandas
+plotly
+openpyxl
+pyarrow
+>>>>>>> e88ff5c19ab32d1092d8cb9d4d65ac5d474b79f0
