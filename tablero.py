@@ -1,3 +1,4 @@
+
 # -*- coding: utf-8 -*-
 import os
 from io import BytesIO
@@ -6,6 +7,7 @@ import pandas as pd
 import streamlit as st
 import altair as alt
 from datetime import datetime
+st.cache_data.clear()
 
 # -------------------------------
 # CONFIGURACIÓN
@@ -26,7 +28,7 @@ AUTHORIZED_EMAILS = [
     "mcarmona@grupobca.com.ar",
     "ncabo@grupobca.com.ar",
     "mmanresa@grupobca.com.ar",
-    "aescobar@grupobca.com.ar"
+    "aescobar@grupobca.com.ar",
     "dcruz@grupobca.com.ar",
 ]
 
