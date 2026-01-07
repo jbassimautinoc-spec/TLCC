@@ -27,6 +27,7 @@ AUTHORIZED_EMAILS = [
     "ncabo@grupobca.com.ar",
     "mmanresa@grupobca.com.ar",
     "aescobar@grupobca.com.ar"
+    "dcruz@grupobca.com.ar",
 ]
 
 st.title("🔐 Acceso al Tablero Logístico")
